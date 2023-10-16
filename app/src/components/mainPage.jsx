@@ -1,3 +1,7 @@
+import '../css/global-styles.css'
+import '../css/style.css'
+import '../css/font.css'
+
 import Background from "../elements/background"
 
 function MainPage() {
