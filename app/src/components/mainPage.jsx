@@ -2,13 +2,15 @@ import '../css/global-styles.css'
 import '../css/style.css'
 import '../css/font.css'
 
-import Background from "../elements/background"
+import TodoApp from '../elements/todoApp'
 
 function MainPage() {
     return (
     <div className="main-page-wrapper">
         <section className="main-page">
-            <Background />
+            <div className="main-page-background">
+            </div>
+            <TodoApp />
         </section>
     </div>
     )
